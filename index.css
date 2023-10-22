@@ -206,9 +206,6 @@ button:hover {
   border-collapse: collapse;
   background-color: #def0ea;
   width: 100%;
-  
-  
-
 
   
 }
@@ -216,6 +213,39 @@ button:hover {
 
   border: black 1px solid;
 } 
+.Statistiques{
+ 
+  background-color: white;
+  margin: 60px 11%; /* Adjust the margin values as needed */
+  height: 50vh;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+   font-family: poppins;
+}
+.stat-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.stats-card{
+  margin: 10px;
+  background-color: #def0ea;
+  width: 15%;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+
+}
+.head-card{
+  background-color: #079162;
+  width: auto;
+  height: 25px;
+  color: white;
+  border-radius: 7px 7px 0px 0px;
+
+}
+
 
 
 
