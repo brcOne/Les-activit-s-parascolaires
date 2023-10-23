@@ -9,9 +9,6 @@ body {
   background-image: linear-gradient(
     to bottom,
     #c4ebde,
-    #d7efe0,
-    #e8f4e7,
-    #f6f9f1,
     #fffffe
   );
 
@@ -48,6 +45,12 @@ nav ul li {
 ul li a {
   font-family: poppins;
   text-decoration: none;
+  color: #191919;
+  font-weight: 500;
+}
+ul li a:hover {
+  
+  color: #079162;
 }
 h1 {
   font-family: poppins;
@@ -63,8 +66,9 @@ label{
   
 }
 
+
 .login-card {
-  background-color: white;
+  background-color: #fffffe;
   margin: 60px 11%; /* Adjust the margin values as needed */
   height: auto;
   border-radius: 10px;
@@ -182,9 +186,9 @@ button {
   background-color: #079162;
   color: #fffffe;
   border: none;
-  border-radius: 2px;
-  width: 70px;
-  height: 25px;
+  border-radius: 5px;
+  width: 75px;
+  height: 35px;
   cursor: pointer;
 }
 
@@ -206,6 +210,9 @@ button:hover {
   border-collapse: collapse;
   background-color: #def0ea;
   width: 100%;
+  
+  
+
 
   
 }
@@ -213,6 +220,7 @@ button:hover {
 
   border: black 1px solid;
 } 
+
 .Statistiques{
  
   background-color: white;
@@ -245,7 +253,6 @@ button:hover {
   border-radius: 7px 7px 0px 0px;
 
 }
-
 
 
 
