@@ -23,46 +23,92 @@
       <div class="login-card">
         <h2>Les Activités Parascolaires Favorisent l'Épanouissement</h2>
         <div class="container-form">
-            <form action="" method="">
-                <label for="nom">Nom:</label><br>
-                <input type="text" id="nom" name="nom" required autocomplete="off" placeholder="Votre nom"><br><br>
-            
-                <label for="prenom">Prénom:</label><br>
-                <input type="text" id="prenom" name="prenom" required autocomplete="off" placeholder="Votre prénom"><br><br>
-            
-                <label for="email">Email:</label><br>
-                <input type="text" id="email" name="email" required autocomplete="off" placeholder="Votre email"><br><br>
-            
-                <label for="genre">Genre:</label><br>
-                <input type="radio" id="genre-m" name="genre" value="M"> Masculin<br>
-                <input type="radio" id="genre-f" name="genre" value="F"> Féminin<br><br>
-            
-                <label for="filiere">Filière:</label><br>
-                <select id="filiere" name="filiere">
-                  <option value="">Select Web/Mobile</option>
-                  <option value="Web">Web</option>
-                  <option value="Mobile">Mobile</option>
-                </select><br><br>
-                
-                <label for="groupe">Groupe:</label><br>
-                <select id="groupe" name="groupe">
-                  <option value="">Dépend de la filière choisie</option>
-                </select><br><br>
-                
-                <label for="clubs">Clubs:</label><br><br>
-                <input type="checkbox" id="club1" name="club1" value="Club IA"><label for="club1" style="color: #747474;">Club IA</label> <br>
-                <input type="checkbox" id="club2" name="club2" value="Club Hackathon"><label for="club2" style="color: #747474;">Club Hackathon</label> <br>
-                <input type="checkbox" id="club3" name="club3" value="Club Musique"><label for="club3" style="color: #747474;">Club Musique</label> <br>
-                <input type="checkbox" id="club4" name="club4" value="Club Sport"><label for="club4" style="color: #747474;">Club Sport</label> <br>
-            
-                <button onclick="add()">Ajouter</button>
-                <button onclick="clearAll()">Annuler</button>
-            </form>
-            <div class="container-boxes">
-                <div class="green-card"><p></p></div>
-                <div class="green-card"><img src="" alt=""></div>
-                <div class="green-card"><img src="" alt=""></div>
-            </div>
+          <form action="" method="">
+            <label for="nom">Nom:</label><br />
+            <input
+              type="text"
+              id="nom"
+              name="nom"
+              required
+              autocomplete="off"
+              placeholder="Votre nom"
+            /><br /><br />
+
+            <label for="prenom">Prénom:</label><br />
+            <input
+              type="text"
+              id="prenom"
+              name="prenom"
+              required
+              autocomplete="off"
+              placeholder="Votre prénom"
+            /><br /><br />
+
+            <label for="email">Email:</label><br />
+            <input
+              type="text"
+              id="email"
+              name="email"
+              required
+              autocomplete="off"
+              placeholder="Votre email"
+            /><br /><br />
+
+            <label for="genre">Genre:</label><br />
+            <input type="radio" id="genre-m" name="genre" value="M" />
+            Masculin<br />
+            <input type="radio" id="genre-f" name="genre" value="F" />
+            Féminin<br /><br />
+
+            <label for="filiere">Filière:</label><br />
+            <select id="filiere" name="filiere">
+              <option value="">Select Web/Mobile</option>
+              <option value="Web">Web</option>
+              <option value="Mobile">Mobile</option></select
+            ><br /><br />
+
+            <label for="groupe">Groupe:</label><br />
+            <select id="groupe" name="groupe">
+              <option value="">Dépend de la filière choisie</option></select
+            ><br /><br />
+
+            <label for="clubs">Clubs:</label><br /><br />
+            <input
+              type="checkbox"
+              id="club1"
+              name="club1"
+              value="Club IA"
+            /><label for="club1" style="color: #747474">Club IA</label> <br />
+            <input
+              type="checkbox"
+              id="club2"
+              name="club2"
+              value="Club Hackathon"
+            /><label for="club2" style="color: #747474">Club Hackathon</label>
+            <br />
+            <input
+              type="checkbox"
+              id="club3"
+              name="club3"
+              value="Club Musique"
+            /><label for="club3" style="color: #747474">Club Musique</label>
+            <br />
+            <input
+              type="checkbox"
+              id="club4"
+              name="club4"
+              value="Club Sport"
+            /><label for="club4" style="color: #747474">Club Sport</label>
+            <br />
+
+            <button onclick="add()">Ajouter</button>
+            <button onclick="clearAll()">Annuler</button>
+          </form>
+          <div class="container-boxes">
+            <div class="green-card"><p></p></div>
+            <div class="green-card"><img src="./" alt="hobi1" /></div>
+            <div class="green-card"><img src="" alt="hobi2" /></div>
+          </div>
         </div>
       </div>
       <div class="Liste-Inscrits">
@@ -80,9 +126,7 @@
           </tr>
         </table>
       </div>
-      <div class="">
-      </div>
-       <div class="Statistiques">
+      <div class="Statistiques">
         <h2>Statistiques</h2>
         <div class="stat-container">
           <div class="stats-card">
